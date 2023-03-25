@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@font-face {
+  font-family: "Wilkysta";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/wilkista/Wilkysta.woff") format("woff");
+}

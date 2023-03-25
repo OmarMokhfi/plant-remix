@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(143, 168, 153);
+}
+
+.navlink {
+  @apply inline-block text-center text-gray-500 hover:text-primary;
+}
+
+a.active {
+  @apply text-primary;
+}
+
+.navlink:after {
+  @apply block pb-1 border-b-2 border-primary transition ease-in-out duration-300 origin-[0%_50%] content-[""] scale-x-0;
+}
+
+.navlink:hover:after {
+  @apply scale-x-100;
+}

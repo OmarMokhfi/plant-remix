@@ -1,0 +1,11 @@
+/* Webfont: Wilkysta */@font-face {
+    font-family: 'Wilkysta';
+    src: url('Wilkysta.eot'); /* IE9 Compat Modes */
+    src: url('Wilkysta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Wilkysta.woff') format('woff'), /* Modern Browsers */
+         url('Wilkysta.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
