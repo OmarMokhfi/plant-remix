@@ -1,6 +1,6 @@
 import { Link, NavLink } from "@remix-run/react";
-import { BiMenuAltRight } from "react-icons/Bi";
-import { AiTwotoneShopping } from "react-icons/Ai";
+import { BiMenuAltRight } from "react-icons/bi";
+import { AiTwotoneShopping } from "react-icons/ai";
 
 import { withCart } from "~/providers/CartProvider";
 
